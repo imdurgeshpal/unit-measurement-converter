@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Measurement conversion</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <div class="mb-3">
+                    <label for="hectare" class="form-label">Hectare</label>
+                    <input type="number" class="form-control" id="hectare" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="acre" class="form-label">Acre</label>
+                    <input type="number" class="form-control" id="acre" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="dicimal" class="form-label">Dicimal</label>
+                    <input type="number" class="form-control" id="dicimal" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="biswa" class="form-label">Bise (Biswa)</label>
+                    <input type="number" class="form-control" id="biswa" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="bigha" class="form-label">Beegha</label>
+                    <input type="number" class="form-control" id="bigha" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="sqmtr" class="form-label">Sq mtr</label>
+                    <input type="number" class="form-control" id="sqmtr" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="sqft" class="form-label">Sq ft</label>
+                    <input type="number" class="form-control" id="sqft" oninput="unitConverter(this.id,this.value)"
+                        onchange="unitConverter(this.id,this.value)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
