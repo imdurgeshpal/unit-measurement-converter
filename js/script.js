@@ -12,37 +12,37 @@ const fixUpto = 10;
 const baseUnit = {
     'hectare': {
         'acre': 2.47105,
-        'bigha': 5,
-        'biswa': 100,
-        'sqmtr': 10000,
-        'sqft': 107639
+        'bigha': 30.888125,
+        'biswa': 617.7625,
+        'sqmtr': 61776.250,
+        'sqft': 664953.377375
     },
     'acre': {
         'hectare': 0.404686,
-        'bigha': 2.023430,
-        'biswa': 40.468600,
-        'sqmtr': 4046.86,
-        'sqft': 43559.996354
+        'bigha': 12.5,
+        'biswa': 250.00,
+        'sqmtr': 25000.00,
+        'sqft': 269097.50
     },
     'bigha': {
-        'hectare': 0.2,
-        'acre': 0.494210,
+        'hectare': 0.032374901,
+        'acre': 0.07999999,
         'biswa': 20,
         'sqmtr': 2000,
         'sqft': 21527.8
     },
     'biswa': {
-        'hectare': 0.01,
-        'acre': 0.0247105,
+        'hectare': 0.0016187451,
+        'acre': 0.0040000001,
         'bigha': 0.05,
         'sqmtr': 100.00,
         'sqft': 1076.390
     },
     'sqmtr': {
-        'hectare': 0.0001,
-        'acre': 0.000247,
-        'bigha': 0.000500,
-        'biswa': 0.01,
+        'hectare': 0.000016187,
+        'acre': 0.0000399989,
+        'bigha': 0.0004999861,
+        'biswa': 0.0099997216,
         'sqft': 10.7639
     },
     'gaj': {
@@ -54,11 +54,11 @@ const baseUnit = {
         'sqft': 891.358559
     },
     'sqft': {
-        'hectare': 0.00000929,
-        'acre': 0.0000229561,
-        'bigha': 0.0000464500,
-        'biswa': 0.0009290000,
-        'sqmtr': 0.092903
+        'hectare': 0.00000150386,
+        'acre': 0.0000037161,
+        'bigha': 0.0000464514,
+        'biswa': 0.0009290283,
+        'sqmtr': 0.0929028313
     }
 };
 
